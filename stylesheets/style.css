@@ -20,39 +20,32 @@ h2 {
 	background-position: 80px 0px;
 }
 
-.links {
-	float: right;
-	width: 300px;
-	height:154px;
+#menu {
+text-align:center;
+font-size: .8em;
+padding-top: 120px;
 }
 
+#menu a {
+	display: inline-block;
+	border-radius: 2px;
+	border:1px solid #40A040;
+	color:white;
+	background-color: #47B247;
+	padding:5px 10px 5px 10px;
+	margin:0 10px 0 10px;
+}
+
+
 .empty {
-	float: right;
-	width:0px;
+	float: left;
+	width:400px;
 	height:154px;
 }
 
 a {
 	text-decoration: none;
 	color: #60749A;
-}
-
-ul {
-	margin-top: 20px;
-	list-style-type: none;
-}
-
-li {
-	margin-bottom:15px;
-}
-
-
-#sn {
-	position:absolute;
-	width:100%;
-	text-align: right;
-	right:10px;
-	margin-top: 15px;
 }
 
 #container {
