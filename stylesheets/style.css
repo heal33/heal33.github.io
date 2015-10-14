@@ -1,0 +1,125 @@
+body {
+	background-color: #232323;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #737A7E;
+	margin:0;
+}
+
+h2 {
+	color: #6e6e6e;
+	margin:0;
+	font-size: 1em;
+}
+
+#header {
+	width:100%;
+	height: 154px;
+	background-image: url("http://i.imgur.com/ZGkbIR5.png");
+	background-repeat: no-repeat;
+	background-size: 335px;
+	background-position: 80px 0px;
+}
+
+.links {
+	float: right;
+	width: 300px;
+	height:154px;
+}
+
+.empty {
+	float: right;
+	width:0px;
+	height:154px;
+}
+
+a {
+	text-decoration: none;
+	color: #60749A;
+}
+
+ul {
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom:15px;
+}
+
+
+#sn {
+	position:absolute;
+	width:100%;
+	text-align: right;
+	right:10px;
+	margin-top: 15px;
+}
+
+#container {
+	width: 100%;
+}
+
+#center {
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squairy_light.png");
+	padding-top:20px;
+	padding-left: 60px; 
+	height:550px;
+}
+
+.fileBlock {
+	float: left;
+	background-color: #ffffff;
+	height:200px;
+	width: 280px;
+	margin:30px 20px 20px 20px;
+	border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+	background-color: #ffffff;
+	height:170px;
+	width:280px;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.image img {
+	border-radius: 10px 10px 0 0;
+	height:170px;
+}
+
+.image:hover .info {
+	display:block;
+}
+
+.fileName {
+	text-align: center;
+	background-color: #F2F2F2;
+	padding:7px;
+	height:16px;
+	border-radius: 0 0 10px 10px;
+}
+
+.info {
+	width: 100%;
+	height:100%;
+	padding-top: 70px;
+	background-color: black;
+	position: absolute;
+	background-color: rgba(33,33,33,0.6);
+	display:none;
+	font-size: 2em;
+}
+
+.info a {
+	text-decoration: none;
+	color:white;
+}
+
+#footer {
+	width:100%;
+	text-align: center;
+}
