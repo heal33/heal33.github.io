@@ -1,8 +1,13 @@
 body {
 	background-color: #232323;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #737A7E;
+	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squairy_light.png");
+	font-family: 'Nunito', sans-serif;
 	margin:0;
+	color: #505050;
+}
+
+h1 {
+	display: inline;
 }
 
 h2 {
@@ -11,36 +16,35 @@ h2 {
 	font-size: 1em;
 }
 
-#header {
-	width:100%;
-	height: 154px;
-	background-image: url("http://i.imgur.com/ZGkbIR5.png");
-	background-repeat: no-repeat;
-	background-size: 335px;
-	background-position: 80px 0px;
+#header{
+font-size: 1em;
+background-color: rgba(255,255,255,0.6);
+font-family: 'Open Sans Condensed', sans-serif;
+height: 40px;
 }
 
-#menu {
-text-align:center;
-font-size: .8em;
-padding-top: 120px;
+#title {
+	padding-left: 100px;
 }
 
-#menu a {
+.subTitle {
+	font-size: .5em;
+	padding-left: 10px;
+}
+
+#links {
+float: right;
+}
+
+#links a {
 	display: inline-block;
-	border-radius: 2px;
-	border:1px solid #40A040;
-	color:white;
-	background-color: #47B247;
-	padding:5px 10px 5px 10px;
+	padding:10px 10px 0px 10px;
 	margin:0 10px 0 10px;
+	height:30px;
 }
 
-
-.empty {
-	float: left;
-	width:400px;
-	height:154px;
+#links a:hover {
+	background-color: #FFFFFF;
 }
 
 a {
@@ -48,15 +52,16 @@ a {
 	color: #60749A;
 }
 
+
 #container {
-	width: 100%;
+	overflow: auto;
 }
 
 #center {
-	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squairy_light.png");
 	padding-top:20px;
-	padding-left: 60px; 
-	height:550px;
+	padding-left: 100px; 
+	padding-right: 100px;
+	margin: 0 auto;
 }
 
 .fileBlock {
@@ -64,7 +69,7 @@ a {
 	background-color: #ffffff;
 	height:200px;
 	width: 280px;
-	margin:30px 20px 20px 20px;
+	margin:30px 40px 20px 0px;
 	border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -84,35 +89,49 @@ a {
 	height:170px;
 }
 
-.image:hover .info {
+.image:hover .preview {
 	display:block;
 }
 
 .fileName {
 	text-align: center;
 	background-color: #F2F2F2;
-	padding:7px;
-	height:16px;
 	border-radius: 0 0 10px 10px;
+	height:33px;
+	display: block;
+	padding-top: 10px;
 }
 
-.info {
+.fileName a:hover {
+	color: #475597;
+}
+
+.preview {
+	width: 100%;
+	height:100%;
+	position: absolute;
+	background-color: rgba(33,33,33,0.6);
+	font-size: 2em;
+	display: none;
+}
+
+.preview a {
 	width: 100%;
 	height:100%;
 	padding-top: 70px;
-	background-color: black;
-	position: absolute;
-	background-color: rgba(33,33,33,0.6);
-	display:none;
-	font-size: 2em;
-}
-
-.info a {
 	text-decoration: none;
 	color:white;
+	display: block;
 }
 
 #footer {
 	width:100%;
+	margin-top: 30px;
+	text-align: center;
+	border-top: 1px solid #bebebe;
+	font-size: .9em;
+}
+
+.centerText {
 	text-align: center;
 }
