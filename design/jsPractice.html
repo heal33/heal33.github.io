@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+
+ #head {
+ 	padding:10px 0 0 0;
+ 	margin-bottom: 40px;
+ }
+
+ #greeting {
+ 	font-size: 1.8em;
+ }
+
+ #totalBox {
+ 	border: 1px solid black;
+ 	padding:0 10px 0px 10px;
+ 	width:200px;
+ }
+
+
+
+
+
+
+    </style>    
+</head>
+
+<body>
+
+
+<div id="head">Enter your name: <input type="text" id="myText" value="">
+
+<button onclick="myFunction()">Enter</button>
+
+
+
+</div>
+
+<div id="greeting">Hello, <span id="name">Friend</span></div>
+
+
+<div id="totalBox">
+
+	<p>Subtotal: <span id="subTotal">0</span> </P>
+
+	<p>Shipping: <span id="shipping">0</span> </p>
+
+	<p>Total: <span id="total">0</span> </p>
+
+</div>
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("name").innerHTML = x;
+}
+
+
+var subTotal = 100.75;
+
+var shipping = 5;
+
+var total = subTotal + shipping;
+
+
+
+var elSub = document.getElementById('subTotal');
+elSub.textContent = '$' + subTotal;
+
+var elShipping = document.getElementById('shipping');
+elShipping.textContent = '$' + shipping;
+
+var elTotal = document.getElementById('total');
+elTotal.textContent = '$' + total;
+
+
+</script>
+
+
+</body>
+</html>
