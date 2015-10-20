@@ -8,6 +8,12 @@ body {
 a {
 	color: white;
 	text-decoration: none;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #555555;
+	text-decoration: none;
 }
 
 
@@ -21,7 +27,7 @@ a {
 }
 
 .title {
-	font-family: 'Raleway Dots', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	margin: 0px;
 	padding: 200px 0 10px 0;
@@ -29,7 +35,7 @@ a {
 }
 
 .subTitle {
-	font-family: 'Raleway Dots', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	padding: 0 0 20px 0;
 	font-size: 1.3em;
@@ -66,19 +72,16 @@ a {
 	border-top:1px dashed white;
 	padding-top: 30px;
 	text-transform: uppercase;
-	font-family: 'Raleway Dots', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: .8em;
 	letter-spacing: .5em;
 }
 
-.infoLink a:hover {
-	text-decoration: underline;
-}
 
 /* Portfolio Page */
 
 .pname {
-	font-family: 'Raleway Dots', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2em;
 	padding: 10px 0 20px 0 ;
 	color: #222222;
@@ -87,7 +90,7 @@ a {
 }
 
 #portPage {
-	width: 100%;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 	text-align: center;
