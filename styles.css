@@ -1,0 +1,141 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: #202020;
+	color: #cccccc;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* Main Page */
+
+#intro {
+	width: 100%;
+	height:100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title {
+	font-family: 'Raleway Dots', cursive;
+	text-align: center;
+	margin: 0px;
+	padding: 200px 0 10px 0;
+	letter-spacing: .7em;
+}
+
+.subTitle {
+	font-family: 'Raleway Dots', cursive;
+	text-align: center;
+	padding: 0 0 20px 0;
+	font-size: 1.3em;
+	letter-spacing: .2em;
+}
+
+.menuLinks ul{
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding: 50px 0 0 0 ; 
+	border-top: 1px dashed white;
+	width:300px;
+}
+
+.menuLinks li{
+	padding: 0px 15px 0 15px;
+	display: inline;
+}
+
+
+
+.eLink {
+	position: absolute;
+}
+
+.infoLink {
+	text-align: center;
+	bottom: 0;
+	width:100%;
+	height: 60px;
+	border-top:1px dashed white;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-family: 'Raleway Dots', cursive;
+	font-size: .8em;
+	letter-spacing: .5em;
+}
+
+.infoLink a:hover {
+	text-decoration: underline;
+}
+
+/* Portfolio Page */
+
+.pname {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 2em;
+	padding: 10px 0 20px 0 ;
+	color: #222222;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#portPage {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#portPage img {
+	width:900px;
+	padding:5px;
+	border:3px inset #444444;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	margin-bottom: 60px;
+}
+
+/* About Page */
+
+#aboutPage {
+	padding:0px 100px 0 100px;
+	text-align: center;
+	color: #999999;
+	padding-bottom: 100px;
+	line-height: 2em;
+}
+
+#aboutPage h2 {
+	color: purple;
+}
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#footer i {
+	padding: 0 10px 0 10px;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5px;
+}
+
+
+
+
+
+
