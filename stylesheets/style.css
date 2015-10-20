@@ -58,33 +58,28 @@ a {
 
 #center {
 	padding-top:20px;
-	padding-left: 100px; 
-	padding-right: 100px;
 	margin: 0 auto;
+	width:620px;
 }
 
 .fileBlock {
 	float: left;
-	background-color: #ffffff;
 	height:200px;
 	width: 280px;
-	margin:30px 0px 20px 30px;
-	border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+	margin:30px 30px 20px 0px;
 }
 
 .image {
 	background-color: #ffffff;
 	height:170px;
 	width:280px;
-	border-radius: 10px 10px 0 0;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .image img {
-	border-radius: 10px 10px 0 0;
 	height:170px;
 }
 
@@ -94,9 +89,6 @@ a {
 
 .fileName {
 	text-align: center;
-	background-color: #F2F2F2;
-	border-radius: 0 0 10px 10px;
-	height:33px;
 	display: block;
 	padding-top: 10px;
 }
@@ -129,10 +121,12 @@ a {
 
 #footer {
 	width:100%;
+	height:300px;
 	margin-top: 30px;
 	text-align: center;
 	border-top: 1px solid #bebebe;
 	font-size: .9em;
+	background-color: red;
 }
 
 .centerText {
