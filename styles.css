@@ -47,10 +47,9 @@ a:hover {
 	list-style: none;
 	text-align: center;
 	font-size: 1.2em;
-	text-transform: uppercase;
 	padding: 50px 0 0 0 ; 
 	border-top: 1px dashed white;
-	width:300px;
+	width:350px;
 }
 
 .menuLinks li{
@@ -71,7 +70,6 @@ a:hover {
 	height: 60px;
 	border-top:1px dashed white;
 	padding-top: 30px;
-	text-transform: uppercase;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: .8em;
 	letter-spacing: .5em;
@@ -84,8 +82,8 @@ a:hover {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2em;
 	padding: 10px 0 20px 0 ;
+	margin-top: 10px;
 	color: #222222;
-	text-transform: uppercase;
 	text-align: center;
 }
 
@@ -95,6 +93,7 @@ a:hover {
 	background-color: white;
 	text-align: center;
 	padding-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 #portPage img {
@@ -105,18 +104,21 @@ a:hover {
 	margin-bottom: 60px;
 }
 
+#portPage img:hover {
+	opacity: 0.6;
+}
+
 /* About Page */
 
-#aboutPage {
-	padding:0px 100px 0 100px;
+#page {
 	text-align: center;
 	color: #999999;
-	padding-bottom: 100px;
+	padding: 0 100px 100px 100px;
 	line-height: 2em;
 }
 
-#aboutPage h2 {
-	color: purple;
+#page h2 {
+	color: DarkSeaGreen;
 }
 
 /* Footer */
@@ -137,6 +139,18 @@ a:hover {
 	padding: 5px;
 }
 
+/* Misc */
+.pheight {
+	height:400px;
+}
+
+.no-bullet {
+	list-style: none;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
 
 
 
