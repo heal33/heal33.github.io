@@ -1,0 +1,25 @@
+.back-home {
+	position: fixed;
+	width:10px;
+	background-color: black;
+	height:100%;
+	text-align: center;
+	overflow: hidden;
+	background: -webkit-linear-gradient(left, #2F2727, #1a82f7);
+	-webkit-transition: width .8s ease-in-out;
+    transition: width .8s ease-in-out;
+}
+
+.back-home:hover {
+	width: 60px;
+}
+
+.back-home a {
+	color:white;
+}
+
+.back-home i {
+	padding-top:300px;
+	padding-right: 10px;
+	float: right;
+}

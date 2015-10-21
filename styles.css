@@ -101,10 +101,6 @@ a:hover {
 	padding:5px;
 	border:3px inset #444444;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-	margin-bottom: 30px;
-}
-
-#portPage img:hover {
 }
 
 /* About Page */
@@ -151,6 +147,9 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.back-home {
+	position: fixed;
+}
 
 
 
