@@ -1,3 +1,6 @@
+
+
+
 body {
 margin: 0;
 padding: 0;
@@ -55,6 +58,8 @@ header a:hover {
 	color: #fff;
 }
 
+/*------- Header Banner --------*/
+
 header h1, header h3, header p {
 	text-align: center;
 
@@ -96,13 +101,15 @@ header img {
 
 }
 
-
-
 .content h2, .content p{
 	text-align: center;
 	color: #979797;
 	padding-bottom: 20px;
 }
+
+
+
+/*---------- Gallery ---------------- */
 
 .projects {
 	padding: 80px 0;
@@ -113,10 +120,6 @@ header img {
 	width: 65%;
 	margin: 0 auto;
 }
-
-#gallery {
-}
-
 
 div.photo img {
 	width: 31.3333%;
@@ -217,7 +220,6 @@ div.photo img {
 				linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6) ),
 				url("img/china.png");
 	padding: 0 15%;
-	height: 520px;
 
 }
 
@@ -228,7 +230,6 @@ div.photo img {
 
 .footerboxes {
 	width: 29.3333%; 
-	height: 70%;
 	float: left;
 	padding: 8% 2% 0 2%;
 
@@ -263,6 +264,7 @@ div.photo img {
 	text-align: center;
 	padding: 20px;
 	opacity: .7;
+	margin: 0;
 
 }
 
@@ -271,4 +273,79 @@ div.photo img {
 .clear {
 	clear: both;
 }
+
+
+
+/*---------- Responsive ---------------- */
+
+@media (max-width: 640px) {
+
+
+
+/*---------- Menu - unfinished feature ---------------- 
+
+	.mobile-menu {
+		display: inline;
+	}
+
+	header ul {
+		height:30px;
+		overflow: hidden;
+}
+
+	header ul {
+		text-align: left;
+	}
+
+
+
+	header ul li{
+	display: block;
+	padding-top: 10px;
+}
+
+---------- End Menu ---------------- */
+
+
+
+/*---------- Header ---------------- */
+
+header {
+	height: 600px;
+}
+
+header img {
+	width: 10%;
+	padding: 40px 15px;
+}
+
+
+
+/*---------- Gallery ---------------- */
+
+div.photo img {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 8px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+
+
+
+/*---------- Footer ---------------- */
+
+.footerboxes {
+	width: 100%; 
+	padding: 5% 2% 2% 2%;
+	float: none;
+	text-align: center;
+}
+
+}
+
+
+
+
+
 
