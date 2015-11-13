@@ -310,13 +310,14 @@ div.photo img {
 
 /*---------- Header ---------------- */
 
-header {
-	height: 600px;
-}
 
 header img {
 	width: 10%;
 	padding: 40px 15px;
+}
+
+.home {
+	display: none;
 }
 
 
