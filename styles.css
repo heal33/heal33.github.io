@@ -1,154 +1,274 @@
 body {
-	margin:0;
-	padding: 0;
-	background-color: #202020;
-	color: #cccccc;
+margin: 0;
+padding: 0;
+font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	margin: 0;
 }
 
 a {
-	color: white;
 	text-decoration: none;
-	transition: color 0.5s ease;
-}
+	color: #95c695;}
 
-a:hover {
-	color: #555555;
-	text-decoration: none;
-}
-
-
-/* Main Page */
-
-#intro {
+header {
 	width: 100%;
-	height:100vh;
+	height: 100vh;
+	background-color: #575757;
+	background: radial-gradient(at 50% bottom, transparent -50%, rgba(22, 28, 25, 0.9) ),
+				url('img/halftone.png') 
+				;
+	border-bottom: 1px solid #666666;
+	box-shadow: 0px 5px 8px #cccccc;
+}
+
+/*------- Top Header Navigation --------*/
+
+header ul {
+	width: 100%;
 	margin: 0 auto;
-	position: relative;
-}
-
-.title {
-	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
-	margin: 0px;
-	padding: 200px 0 10px 15px;
-	letter-spacing: .7em;
+	color: white;
+	font-size:1.2em;
+	padding: 15px 0 15px 0;
+	line-height: 1em;
+	background-color: rgba(0, 0, 0, 0.3);
 }
-
-.subTitle {
-	font-family: 'Julius Sans One', sans-serif;
-	text-align: center;
-	padding: 0 0 20px 0;
-	font-size: 1.3em;
-	letter-spacing: .2em;
-}
-
-.menuLinks ul{
-	margin: 0 auto;
+ 
+header ul li{
 	list-style: none;
-	text-align: center;
-	font-size: 1.2em;
-	padding: 50px 0 0 0 ; 
-	border-top: 1px dotted #777777;
-	width:380px;
-}
-
-.menuLinks li{
-	padding: 0px 15px 0 15px;
 	display: inline;
 }
 
-
-
-.eLink {
-	position: absolute;
-}
-
-.infoLink {
-	text-align: center;
-	bottom: 0;
-	width:100%;
-	height: 60px;
-	border-top:1px dashed white;
-	padding-top: 30px;
-	font-family: 'Julius Sans One', sans-serif;
+header a {
+	text-transform: uppercase;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #adadad;
+	opacity: 1;
+	transition: color 1s;
 	font-size: .8em;
-	letter-spacing: .5em;
 }
 
+header a:hover {
+	color: #fff;
+}
 
-/* Portfolio Page */
-
-.pname {
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 2em;
-	padding: 10px 0 20px 0 ;
-	margin-top: 10px;
-	color: #cccccc;
+header h1, header h3, header p {
 	text-align: center;
-	letter-spacing: .1em;
+
 }
 
-#portPage {
-	width: 1100px;
-	margin: 0 auto;
-	background-color: rgba(70, 52, 52, 0.2);
-	text-align: center;
-	padding-bottom: 50px;
-	margin-bottom: 60px;
-	border-radius: 10px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-}
-
-#portPage img {
-	width:500px;
-	padding:5px;
-	border:2px inset #444444;
-	margin: 0px 10px 0 10px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-/* About Page */
-
-#page {
-	text-align: center;
-	color: #999999;
-	padding: 0 100px 100px 100px;
-	line-height: 2em;
-}
-
-#page h2 {
-	color: DarkSeaGreen;
-}
-
-/* Footer */
-
-#footer {
-	text-align: center;
-	padding-bottom: 50px;
-}
-
-#footer i {
-	padding: 0 10px 0 10px;
-}
-
-.fixed {
-	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 5px;
-}
-
-/* Misc */
-.pheight {
-	height:400px;
-}
-
-.no-bullet {
-	list-style: none;
-}
-
-.uppercase {
+header h1 {
+	margin: 10% 0 0 0;
+	font-size: 3.4em;
 	text-transform: uppercase;
 }
 
+header h1, header h3 {
+	font-family: 'Shadows Into Light', sans-serif;	color: #fff;
+	opacity: .9;
+	text-shadow: 2px 2px 5px slategrey;
+}
+
+header h3 {
+	margin: .8em;
+}
+
+header p {
+	margin-top: 8%;
+	color: #fff;
+	opacity: .7;
+}
+
+header img {
+	width: 6.5%;
+	padding: 40px 15px;
+}
+
+.content {
+	width: 100%;
+}
+
+.content h2 {
+	font-size:1.9em;
+
+}
+
+
+
+.content h2, .content p{
+	text-align: center;
+	color: #979797;
+	padding-bottom: 20px;
+}
+
+.projects {
+	padding: 80px 0;
+	background-color: #333;
+}
+
+#gallery, .content table {
+	width: 65%;
+	margin: 0 auto;
+}
+
+#gallery {
+}
+
+
+div.photo img {
+	width: 31.3333%;
+	float: left;
+	margin: 1%;
+	padding: 8px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+
+.status {
+	width: 100%;
+	padding: 30px 0;
+	background-color: #d8d8d8;
+	color: #555555;
+	box-sizing: border-box;
+}
+
+.content table {
+	text-align: right;
+	width: 90%;
+	padding-right:5%;
+}
+
+.content td {
+	width:33.333333%;
+	padding: 10px 0;
+}
+
+.progress-bar {
+	display: inline-block;
+	width: 50%;
+	height: 20px;
+	margin-left: 10px;
+	background-color: darkgrey;
+	box-shadow: inset 2px 2px 5px #808080;
+}
+
+/* prevents the progress labels from shifting. Span wrap */
+.forced-width { 
+}
+
+
+/*---------- progress bar % ---------------- */
+
+.progress-bar, .html, .css, .javascript, .php, .bootstrap, .wordpress {
+	border-radius: 10px;	
+}
+
+.html {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 80%;
+	height: 100%;
+}
+
+.css {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 80%;
+	height: 100%;
+}
+
+.javascript {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 40%;
+	height: 100%;
+}
+
+.php {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 20%;
+	height: 100%;
+}
+
+.wordpress {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 40%;
+	height: 100%;
+}
+
+.bootstrap {
+	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 5px #000;
+	width: 20%;
+	height: 100%;
+}
+
+
+
+/*---------- footer ---------------- */
+
+.footer {
+	background: 
+				linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6) ),
+				url("img/china.png");
+	padding: 0 15%;
+	height: 520px;
+
+}
+
+.footerboxes h3 {
+	color: #eeeeee;
+	font-weight: 200;
+}
+
+.footerboxes {
+	width: 29.3333%; 
+	height: 70%;
+	float: left;
+	padding: 8% 2% 0 2%;
+
+}
+
+.footerboxes ul{
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footerboxes li {
+	margin-top: 10px;
+		color: #999;
+
+}
+
+.footerboxes a {
+
+}
+
+.footerboxes a:hover {
+	color: #fff;
+}
+
+.sub-text{
+	font-size: .85em;
+	font-weight: bold;
+}
+
+.maddux {
+	text-align: center;
+	padding: 20px;
+	opacity: .7;
+
+}
+
+
+
+.clear {
+	clear: both;
+}
 
