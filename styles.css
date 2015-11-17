@@ -126,6 +126,7 @@ div.photo img {
 	width: 31.3333%;
 	float: left;
 	margin: 1%;
+	padding: 5px;
 	box-sizing: border-box;
 }
 
@@ -326,8 +327,7 @@ header img {
 div.photo img {
 	width: 100%;
 	margin-bottom: 30px;
-	padding: 8px;
-	border: 2px solid #ccc;
+	padding: 5px;
 	box-sizing: border-box;
 }
 
