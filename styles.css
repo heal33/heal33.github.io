@@ -36,7 +36,6 @@ header ul {
 	color: white;
 	font-size:1.2em;
 	padding: 15px 0 15px 0;
-	line-height: 1em;
 	background-color: rgba(0, 0, 0, 0.3);
 }
  
@@ -47,7 +46,7 @@ header ul li{
 
 header a {
 	text-transform: uppercase;
-	padding: 10px 25px;
+	padding: 1% 2%;
 	text-decoration: none;
 	color: #adadad;
 	opacity: 1;
@@ -89,7 +88,7 @@ header p {
 }
 
 header img {
-	width: 6.5%;
+	width: 10.5%;
 	padding: 40px 15px;
 }
 
@@ -128,6 +127,11 @@ div.photo img {
 	margin: 1%;
 	padding: 5px;
 	box-sizing: border-box;
+	position: relative;
+}
+
+.photo img:hover {
+	opacity: .5;
 }
 
 .status {
@@ -268,43 +272,19 @@ div.photo img {
 
 }
 
-
-
 .clear {
 	clear: both;
 }
 
 
 
-/*---------- Responsive ---------------- */
+/*------------------------------------------------------
+
+			Responsive CSS
+
+--------------------------------------------------------*/
 
 @media (max-width: 640px) {
-
-
-
-/*---------- Menu - unfinished feature ---------------- 
-
-	.mobile-menu {
-		display: inline;
-	}
-
-	header ul {
-		height:30px;
-		overflow: hidden;
-}
-
-	header ul {
-		text-align: left;
-	}
-
-
-
-	header ul li{
-	display: block;
-	padding-top: 10px;
-}
-
----------- End Menu ---------------- */
 
 
 
@@ -318,6 +298,22 @@ header img {
 
 .home {
 	display: none;
+}
+
+header li a{
+	display: block;
+	padding: 15px 0;
+	border-bottom: 1px solid #333;
+	font-size: 1.2em;
+}
+
+header ul {
+	padding: 0;
+}
+ 
+header ul li{
+	list-style: none;
+	display: inline;
 }
 
 
