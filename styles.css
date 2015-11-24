@@ -116,8 +116,12 @@ header img {
 	background-color: #333;
 }
 
+#gallery p {
+	padding-bottom: 50px;
+}
+
 #gallery, .content table {
-	width: 40%;
+	width: 60%;
 	margin: 0 auto;
 }
 
