@@ -118,6 +118,8 @@ header img {
 
 .embed {
 	margin-bottom: 50px;
+	padding-bottom: 50px;
+	background-color: red;
 }
 
 #gallery, .content table {
