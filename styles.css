@@ -117,21 +117,8 @@ header img {
 }
 
 #gallery, .content table {
-	width: 65%;
+	width: 40%;
 	margin: 0 auto;
-}
-
-div.photo img {
-	width: 31.3333%;
-	float: left;
-	margin: 1%;
-	padding: 5px;
-	box-sizing: border-box;
-	position: relative;
-}
-
-.photo img:hover {
-	opacity: .5;
 }
 
 .status {
