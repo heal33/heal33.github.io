@@ -116,7 +116,7 @@ header img {
 	background-color: #333;
 }
 
-#gallery script {
+#gallery script, #gallery p {
 	margin-bottom: 50px;
 }
 
