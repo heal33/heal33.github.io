@@ -117,7 +117,7 @@ header img {
 }
 
 #gallery script {
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 #gallery, .content table {
