@@ -123,6 +123,10 @@ header a:hover {
 	padding-bottom: 35px;
 }
 
+iframe {
+	border: 0;
+}
+
 
 /*---------- SIDEBAR ---------------- */
 
@@ -340,6 +344,21 @@ header h1, header h2, header p {
 
 .projects {
 	padding-right: 0;
+}
+
+.projects iframe {
+	display: none;
+}
+
+.embed {
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.embed a {
+	display: block;
+	background-color: #eee;
+	padding: 10px 0;
 }
 
 /*---------- Footer ---------------- */
