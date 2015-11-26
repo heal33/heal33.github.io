@@ -142,7 +142,6 @@ iframe {
 	float: right;
 	width: 30%;
 	background-color: #FEFFF5;
-	background: linear-gradient(to bottom, #FEFFF5, transparent );
 	padding: 20px 10px 10px 10px;
 	border-top: 10px solid #CAD5D5;
 }
