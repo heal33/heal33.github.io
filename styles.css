@@ -1,11 +1,9 @@
-
-
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 body {
 margin: 0;
 padding: 0;
 font-family: 'Quicksand', sans-serif;
-background-color: #222;
 }
 
 h2 {
@@ -14,71 +12,32 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: #95c695;}
-
-header {
-	width: 100%;
-	height: 100vh;
-	background-color: #575757;
-	background: radial-gradient(at 50% bottom, transparent -50%, rgba(22, 28, 25, 0.9) ),
-				url('img/halftone.png') 
-				;
-	border-bottom: 1px solid #666666;
-	box-shadow: 0px 5px 8px #cccccc;
-}
-
-/*------- Top Header Navigation --------*/
-
-header ul {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	color: white;
-	font-size:1.2em;
-	padding: 15px 0 15px 0;
-	background-color: rgba(0, 0, 0, 0.3);
-}
- 
-header ul li{
-	list-style: none;
-	display: inline;
-}
-
-header a {
-	text-transform: uppercase;
-	padding: 1% 2%;
-	text-decoration: none;
-	color: #adadad;
-	opacity: 1;
-	transition: color 1s;
-	font-size: .9em;
-}
-
-header a:hover {
-	color: #fff;
+	color: #5b356b;
 }
 
 /*------- Header Banner --------*/
 
-header h1, header h3, header p {
-	text-align: center;
+header {
+	width: 100%;
+	height: 200px;
+	border-bottom: 5px solid #999;
+	background-color: #eee;
+	background: linear-gradient(to top, #bdd8bc, transparent),
+				url('img/subtle_stripes.png');
+	padding: 10px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+
+header h1, header h2, header p {
+	padding-left: 10%;
 
 }
 
 header h1 {
-	margin: 10% 0 0 0;
-	font-size: 3.4em;
+	margin: 0;
+	font-size: 3em;
 	text-transform: uppercase;
-}
-
-header h1, header h3 {
-	font-family: 'Shadows Into Light', sans-serif;	color: #fff;
-	opacity: .9;
-	text-shadow: 2px 2px 5px slategrey;
-}
-
-header h3 {
-	margin: .8em;
 }
 
 header p {
@@ -87,81 +46,207 @@ header p {
 	opacity: .7;
 }
 
-header img {
-	width: 10.5%;
-	padding: 40px 15px;
-}
 
-.content {
-	width: 100%;
-}
 
-.content h2 {
-	font-size:1.9em;
+/*------- Top Header Navigation --------*/
+header h1, header h2 {
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	opacity: .9;
 
 }
 
-.content h2, .content p{
-	text-align: center;
-	color: #979797;
-	padding-bottom: 20px;
+header h1, h2 {
+	text-shadow: 2px 2px 3px white;
 }
 
 
 
-/*---------- Gallery ---------------- */
+/*------- Top Header Navigation --------*/
+
+header ul {
+	color: white;
+	padding: 15px 15px 0 0;
+	margin-top: 0;
+	text-align: right;
+}
+ 
+header ul li{
+	list-style: none;
+	display: inline;
+	padding: 3px;
+}
+
+header a {
+	text-transform: uppercase;
+	padding: 5px;
+	text-decoration: none;
+	color: #555;
+	opacity: 1;
+	border: 1px solid transparent;
+	transition: color 1s, border 1s;
+}
+
+header a:hover {
+	color: #000;
+	border: 1px solid #555;
+}
+
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+/*---------- Projects ---------------- */
 
 .projects {
-	padding: 80px 0;
-	background-color: #333;
+	float: left;
+	width: 70%;
+	padding: 0% 5% 0 0;
+}
+
+.projects h2 {
+	color: #C89D7B;
+}
+
+.projects-container {
+	padding: 10px;
+	box-shadow: 0px 4px 4px #F6EFE1;
+	border-top: 10px solid #CAD5D5;
+	background-color: #FFF8F2;
+	margin-bottom: 10px;
 }
 
 .embed {
 	padding-bottom: 35px;
 }
 
-#gallery, .content table {
-	width: 50%;
-	margin: 0 auto;
+
+/*---------- SIDEBAR ---------------- */
+
+.sidebar-boxes h3 {
+	padding: 5px 5px;
+	font-weight: 200;
+	margin-top: 0;
+	box-shadow: 0px 4px 4px #cfc4ae;
+	text-shadow: 1px 1px 2px white;
+}
+
+.sidebar {
+	float: right;
+	width: 30%;
+	background-color: #FEFFF5;
+	background: linear-gradient(to bottom, #FEFFF5, transparent );
+	padding: 20px 10px 10px 10px;
+	border-top: 10px solid #CAD5D5;
+}
+
+.sidebar a {
+	opacity: 0.5;
+	transition: opacity .5s;
+}
+
+.sidebar a:hover {
+	opacity: 1;
+}
+
+.sidebar-boxes {
+	padding-bottom: 10px;
+}
+
+.sidebar-boxes ul{
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-boxes li {
+	margin-top: 10px;
+}
+
+.content {
+	padding: 0 10px;
+	background-color: rgba(255,255,255, 0.8);
+	border: 1px dashed #eee;
+}
+
+.content h2 {
+	font-size:1.9em;
+}
+
+.content p{
+	color: #979797;
 }
 
 .status {
 	width: 100%;
-	padding: 30px 0;
-	background-color: #d8d8d8;
-	color: #555555;
 	box-sizing: border-box;
-}
-
-.content table {
-	text-align: right;
-	width: 90%;
-	padding-right:5%;
-}
-
-.content td {
-	width:33.333333%;
-	padding: 10px 0;
 }
 
 .progress-bar {
 	display: inline-block;
 	width: 50%;
-	height: 20px;
-	margin-left: 10px;
+	height: 15px;
 	background-color: darkgrey;
 	box-shadow: inset 2px 2px 5px #808080;
 }
 
-/* prevents the progress labels from shifting. Span wrap */
+
 .forced-width { 
+	width: 40%;
+	display: inline-block;
+	padding-bottom: 10px;
 }
+
+.sub-text{
+	font-size: .85em;
+	font-weight: bold;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px;
+	opacity: .7;
+	margin: 0;
+}
+
+.footer a:hover {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/*---------- Sidebar h3 Colors ---------------- */
+.pink {
+	background-color: #D5B9C9;
+	border-left: 20px solid #888;
+	color: #9F6187;
+}
+
+.yellow {
+	background-color: #FDDCDD;
+	border-left: 20px solid #EAB2B3;
+	color: #C67A7C;
+}
+
+.blue {
+	background-color: #BDD8BC;
+	border-left: 20px solid #6D908D;
+	color: #4A7A78;
+}
+
 
 
 /*---------- progress bar % ---------------- */
 
 .progress-bar, .html, .css, .javascript, .php, .bootstrap, .wordpress {
-	border-radius: 10px;	
+	border-radius: 5px;	
 }
 
 .html {
@@ -208,64 +293,12 @@ header img {
 
 
 
-/*---------- footer ---------------- */
+/*---------- Border Box ---------------- */
 
-.footer {
-	background: 
-				linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6) ),
-				url("img/china.png");
-	padding: 0 15%;
-
+.sidebar, .projects {
+	box-sizing: border-box;
 }
 
-.footerboxes h3 {
-	color: #eeeeee;
-	font-weight: 200;
-}
-
-.footerboxes {
-	width: 29.3333%; 
-	float: left;
-	padding: 8% 2% 0 2%;
-
-}
-
-.footerboxes ul{
-	margin: 1em 0;
-	padding: 0;
-	list-style: none;
-}
-
-.footerboxes li {
-	margin-top: 10px;
-		color: #999;
-
-}
-
-.footerboxes a {
-
-}
-
-.footerboxes a:hover {
-	color: #fff;
-}
-
-.sub-text{
-	font-size: .85em;
-	font-weight: bold;
-}
-
-.maddux {
-	text-align: center;
-	padding: 20px;
-	opacity: .7;
-	margin: 0;
-
-}
-
-.clear {
-	clear: both;
-}
 
 
 
@@ -281,56 +314,51 @@ header img {
 
 /*---------- Header ---------------- */
 
-
-header img {
-	width: 20%;
-	padding: 40px 15px;
+header ul, header h1, header h2{
+	text-align: center;
 }
 
-.home {
-	display: none;
-}
-
-header li a{
-	display: block;
-	padding: 15px 0;
-	border-bottom: 1px solid #333;
-	font-size: 1.2em;
-}
-
-header ul {
-	padding: 0;
-}
- 
 header ul li{
 	list-style: none;
 	display: inline;
 }
 
+header h1, header h2, header p {
+	padding-left: 0%;
 
-
-/*---------- Gallery ---------------- */
-
-div.photo img {
-	width: 100%;
-	margin-bottom: 30px;
-	padding: 5px;
-	box-sizing: border-box;
 }
 
 
 
+/*---------- PROJECTS ---------------- */
+
+.projects, .sidebar{
+	clear: both;
+	width: 100%;
+
+}
+
+.projects {
+	padding-right: 0;
+}
+
 /*---------- Footer ---------------- */
 
-.footerboxes {
+.sidebar-boxes {
 	width: 100%; 
-	padding: 5% 2% 2% 2%;
 	float: none;
 	text-align: center;
 }
 
+.sidebar-boxes h3 {
+	font-size: 1.5em;
 }
 
+.forced-width { 
+	text-align: left;
+}
+
+}
 
 
 
