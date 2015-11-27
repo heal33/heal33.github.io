@@ -1,0 +1,95 @@
+a {
+	color: #5b356b;
+}
+
+header {
+	border-bottom: 5px solid #19181B;
+	background-color: #eee;
+	background: linear-gradient(to top, #C3CFDE, transparent),
+				url('img/subtle_stripes.png');
+}
+
+header p {
+	color: #fff;
+}
+
+header h1, header h2 {
+	text-shadow: 1px 1px 3px #9A98AD;
+	color: #06041D;
+	opacity: 0.5;
+}
+
+header ul {
+	color: white;
+}
+
+header a {
+	opacity: 0.7;
+	color: #555;
+	border: 1px solid transparent;
+}
+
+header a:hover {
+	opacity: 1;
+	border: 1px solid #ada796;
+}
+
+.projects-container {
+	border-top: 10px solid #3A3341;
+	background-color: #D4D7DB;
+}
+
+.projects h2 {
+	text-shadow: 1px 1px 2px #555;
+}
+
+.sidebar-boxes h3, {
+	text-shadow: 1px 1px 2px white;	
+}
+
+.sidebar {
+	background-color: #fff;
+	border-top: 10px solid #4C4B5E;
+}
+
+.content {
+	background-color: rgba(255,255,255, 0.8);
+	border: 1px dashed #eee;
+}
+
+.content p{
+	color: #979797;
+}
+
+.progress-bar {
+	background-color: darkgrey;
+	box-shadow: inset 2px 2px 5px #808080;
+}
+
+
+
+/*---------- h3 Colors ---------------- */
+.colorset-one {
+	background-color: rgba(195, 207, 222, 0.2);
+	border-left: 20px solid rgba(0, 8, 136, 0.2);
+	color: #3E6087;
+}
+
+.blue {
+	background-color: #7892AF;
+	border-left: 20px solid #35324F;
+	color: #fff;
+}
+
+
+
+/*---------- progress bar % ---------------- */
+
+.html, .css, .javascript, .php, .bootstrap, .wordpress {
+	box-shadow: inset 0px 0px 5px #000;
+	background-color: #9bf7c6;
+}
+
+
+
+

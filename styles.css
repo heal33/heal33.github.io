@@ -12,52 +12,31 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: #5b356b;
 }
 
 /*------- Header Banner --------*/
 
 header {
 	width: 100%;
-	height: 200px;
-	border-bottom: 5px solid #999;
-	background-color: #eee;
-	background: linear-gradient(to top, #bdd8bc, transparent),
-				url('img/subtle_stripes.png');
 	padding: 10px;
-	margin-bottom: 50px;
 	box-sizing: border-box;
 }
 
-header h1, header h2, header p {
-	padding-left: 10%;
-
+header h1, header h2 {
+	padding-left: 1%;
 }
 
 header h1 {
 	margin: 0;
-	font-size: 3em;
+	font-size: 2.5em;
 	text-transform: uppercase;
 }
-
-header p {
-	margin-top: 8%;
-	color: #fff;
-	opacity: .7;
-}
-
 
 
 /*------- Top Header Navigation --------*/
 header h1, header h2 {
-	text-align: left;
 	font-family: 'Poiret One', cursive;
-	opacity: .9;
-
-}
-
-header h1, h2 {
-	text-shadow: 2px 2px 3px white;
+	display: inline-block;
 }
 
 
@@ -65,8 +44,6 @@ header h1, h2 {
 /*------- Top Header Navigation --------*/
 
 header ul {
-	color: white;
-	padding: 15px 15px 0 0;
 	margin-top: 0;
 	text-align: right;
 }
@@ -81,37 +58,22 @@ header a {
 	text-transform: uppercase;
 	padding: 5px;
 	text-decoration: none;
-	color: #555;
-	opacity: 1;
-	border: 1px solid transparent;
-	transition: color 1s, border 1s;
+	transition: opacity 1s, border 1s;
 }
 
-header a:hover {
-	color: #000;
-	border: 1px solid #555;
-}
 
-#wrap {
-	width: 80%;
-	margin: 0 auto;
-}
 
 
 
 /*---------- Projects ---------------- */
 
 .projects {
-	float: left;
+	float: right;
 	width: 70%;
-	padding: 0% 5% 0 0;
 }
 
 .projects-container {
-	padding: 10px;
-	box-shadow: 0px 4px 4px #F6EFE1;
-	border-top: 10px solid #CAD5D5;
-	background-color: #FFF8F2;
+	padding: 20px 10px 10px 10px;
 	margin-bottom: 10px;
 }
 
@@ -121,6 +83,7 @@ header a:hover {
 
 .embed {
 	padding-bottom: 35px;
+	border-bottom: 1px dashed #ccc;
 }
 
 iframe {
@@ -133,17 +96,13 @@ iframe {
 .sidebar-boxes h3, .projects h2 {
 	padding: 5px 5px;
 	font-weight: 200;
-	margin-top: 0;
-	box-shadow: 0px 4px 4px #cfc4ae;
-	text-shadow: 1px 1px 2px white;
+	margin: 0 0 10px 0;
 }
 
 .sidebar {
-	float: right;
+	float: left;
 	width: 30%;
-	background-color: #FEFFF5;
 	padding: 20px 10px 10px 10px;
-	border-top: 10px solid #CAD5D5;
 }
 
 .sidebar a {
@@ -160,27 +119,22 @@ iframe {
 }
 
 .sidebar-boxes ul{
-	margin: 1em 0;
 	padding: 0;
+	margin: 0;
 	list-style: none;
 }
 
 .sidebar-boxes li {
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .content {
-	padding: 0 10px;
-	background-color: rgba(255,255,255, 0.8);
+	padding: 5px 10px;
 	border: 1px dashed #eee;
 }
 
 .content h2 {
 	font-size:1.9em;
-}
-
-.content p{
-	color: #979797;
 }
 
 .status {
@@ -192,8 +146,6 @@ iframe {
 	display: inline-block;
 	width: 50%;
 	height: 15px;
-	background-color: darkgrey;
-	box-shadow: inset 2px 2px 5px #808080;
 }
 
 
@@ -225,73 +177,38 @@ iframe {
 
 
 
-/*---------- h3 Colors ---------------- */
-.pink {
-	background-color: #D5B9C9;
-	border-left: 20px solid #888;
-	color: #9F6187;
-}
-
-.yellow {
-	background-color: #FDDCDD;
-	border-left: 20px solid #EAB2B3;
-	color: #C67A7C;
-}
-
-.blue {
-	background-color: #BDD8BC;
-	border-left: 20px solid #6D908D;
-	color: #4A7A78;
-}
-
-
-
 /*---------- progress bar % ---------------- */
 
 .progress-bar, .html, .css, .javascript, .php, .bootstrap, .wordpress {
 	border-radius: 5px;	
 }
 
-.html {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
-	width: 80%;
+.html, .css, .javascript, .php, .bootstrap, .wordpress {
 	height: 100%;
+}
+
+.html {
+	width: 80%;
 }
 
 .css {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
 	width: 80%;
-	height: 100%;
 }
 
 .javascript {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
 	width: 40%;
-	height: 100%;
 }
 
 .php {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
 	width: 20%;
-	height: 100%;
 }
 
 .wordpress {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
 	width: 20%;
-	height: 100%;
 }
 
 .bootstrap {
-	background-color: #9bf7c6;
-	box-shadow: inset 0px 0px 5px #000;
 	width: 20%;
-	height: 100%;
 }
 
 
@@ -326,9 +243,9 @@ header ul li{
 	display: inline;
 }
 
-header h1, header h2, header p {
+header h1, header h2 {
 	padding-left: 0%;
-
+	display: block;
 }
 
 header {
