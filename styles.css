@@ -142,24 +142,6 @@ iframe {
 	font-size:1.9em;
 }
 
-.status {
-	width: 100%;
-	box-sizing: border-box;
-}
-
-.progress-bar {
-	display: inline-block;
-	width: 50%;
-	height: 15px;
-}
-
-
-.forced-width { 
-	width: 40%;
-	display: inline-block;
-	padding-bottom: 10px;
-}
-
 .sub-text{
 	font-size: .85em;
 	font-weight: bold;
@@ -183,8 +165,27 @@ iframe {
 
 /*---------- progress bar % ---------------- */
 
+.forced-width { 
+	width: 35%;
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.status {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.progress-bar {
+	display: inline-block;
+	width: 50%;
+	height: 5px;
+}
+
 .progress-bar, .html, .css, .javascript, .php, .bootstrap, .wordpress {
-	border-radius: 3px;	
+	border-radius: 100px;	
 }
 
 .html, .css, .javascript, .php, .bootstrap, .wordpress {
