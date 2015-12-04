@@ -52,11 +52,6 @@ header a:hover {
 	border-left-color: #9C93AB;
 }
 
-/*projects img border*/
-.preview {
-	border-color: #9C93AB;
-}
-
 .sidebar-boxes h3 {
 	text-shadow: 2px 2px 2px white;	
 }
