@@ -1,20 +1,28 @@
+/*------------------------------------------------------
+
+			Colors CSS
+
+--------------------------------------------------------*/
+
 a {
-	color: #5b356b;
+	color: #47547f;
 }
 
 header {
-	border-bottom: 5px solid #999;
-	background-color: #eee;
-	background: linear-gradient(to top, #bdd8bc, transparent),
-				url('img/subtle_stripes.png');
+	border-bottom-color: #19181B;
+	background-color: #6a7082;
+	background: linear-gradient(to top, #6a7082, #4C4B5E);
 }
 
-header p {
-	color: #fff;
+h3 {
+	color: #777;
+	font-weight: normal;
 }
 
-header h1, h2 {
-	text-shadow: 2px 2px 3px white;
+header h1, header h2 {
+	text-shadow: 1px 1px 3px #444;
+	color: #eee;
+	opacity: 0.8;
 }
 
 header ul {
@@ -22,73 +30,79 @@ header ul {
 }
 
 header a {
-	color: #555;
-	border: 1px solid transparent;
+	opacity: 0.7;
+	color: #eee;
+	border-color: transparent;
 }
 
 header a:hover {
-	color: #000;
-	border: 1px solid #555;
+	opacity: 1;
 }
 
 .projects-container {
-	box-shadow: 0px 4px 4px #F6EFE1;
-	border-top: 10px solid #CAD5D5;
-	background-color: #FFF8F2;
+	border-top-color: #3A3341;
+	background-color: #D4D7DB;
 }
 
-.sidebar-boxes h3, .projects h2 {
-	box-shadow: 0px 4px 4px #cfc4ae;
-	text-shadow: 1px 1px 2px white;
+.projects h2 {
+	text-shadow: 1px 1px 2px #555;
+}
+
+.projects h4 {
+	border-left-color: #9C93AB;
+}
+
+/*projects img border*/
+.preview {
+	border-color: #9C93AB;
+}
+
+.sidebar-boxes h3 {
+	text-shadow: 2px 2px 2px white;	
 }
 
 .sidebar {
-	background-color: #FEFFF5;
-	border-top: 10px solid #CAD5D5;
+	background-color: #fff;
+	border-top-color: #4C4B5E;
 }
 
 .content {
 	background-color: rgba(255,255,255, 0.8);
-	border: 1px dashed #eee;
+	border-color: #eee;
 }
 
 .content p{
-	color: #979797;
+	color: #666;
 }
-
-.progress-bar {
-	background-color: darkgrey;
-	box-shadow: inset 2px 2px 5px #808080;
-}
-
-
 
 /*---------- h3 Colors ---------------- */
-.pink {
-	background-color: #D5B9C9;
-	border-left: 20px solid #888;
-	color: #9F6187;
-}
-
-.yellow {
-	background-color: #FDDCDD;
-	border-left: 20px solid #EAB2B3;
-	color: #C67A7C;
+.colorset-one {
+	background-color: rgba(195, 207, 222, 0.2);
+	border-left: 10px solid rgba(0, 8, 136, 0.2);
+	color: #3E6087;
 }
 
 .blue {
-	background-color: #BDD8BC;
-	border-left: 20px solid #6D908D;
-	color: #4A7A78;
+	background-color: #7892AF;
+	border-left: 10px solid #35324F;
+	color: #fff;
 }
 
 
 
 /*---------- progress bar % ---------------- */
 
+/* outside */
+.progress-bar {
+	background: linear-gradient(to bottom, #c7cdd6, #d5dce5);
+	box-shadow: inset 2px 2px 5px #aaa;
+	border-color: #ccc;
+}
+
+/* inside */
 .html, .css, .javascript, .php, .bootstrap, .wordpress {
-	box-shadow: inset 0px 0px 5px #000;
-	background-color: #9bf7c6;
+	box-shadow: inset 0px 0px 2px #666;
+	background: linear-gradient(to bottom, #31AEDC, #31AEDC);
 }
 
 
