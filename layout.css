@@ -117,12 +117,6 @@ iframe {
 
 /*---------- SIDEBAR ---------------- */
 
-.heading-block {
-	padding: 5px 5px;
-	font-weight: 200;
-	margin: 0 0 10px 0;
-}
-
 .sidebar {
 	float: left;
 	width: 30%;
@@ -140,6 +134,14 @@ iframe {
 	opacity: 1;
 }
 
+/* the title for each catergory */
+.heading-block {
+	padding: 3px;
+	font-weight: 200;
+	margin: 0;
+}
+
+/* sidebar-boxes is the parent and holds each category in the sidebar */
 .sidebar-boxes {
 	padding-bottom: 10px;
 }
@@ -154,29 +156,28 @@ iframe {
 	margin-bottom: 10px;
 }
 
+/* content holds everything inside a sidebar-box */
+
 .content {
-	padding: 5px 10px;
+	padding: 10px;
 	border-width: 1px;
 	border-style: dashed;
+	font-size: .9em;
 }
 
-.content h2 {
-	font-size:1.9em;
-}
 
-.sub-text{
-	font-size: .85em;
-	font-weight: bold;
-}
+
+/*---------- FOOTER ---------------- */
 
 .footer {
 	text-align: center;
+	font-size: 0.8em;
+	font-family: sans-serif;
 	padding: 20px;
-	opacity: .7;
 }
 
-.footer a:hover {
-	font-weight: bold;
+.footer a {
+	text-decoration: underline;
 }
 
 .clear {
@@ -188,11 +189,10 @@ iframe {
 /*---------- progress bar % ---------------- */
 
 .forced-width { 
-	width: 35%;
+	width: 100px;
 	display: inline-block;
 	padding-bottom: 10px;
 	padding-right: 10px;
-	text-align: right;
 }
 
 .status {

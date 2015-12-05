@@ -5,7 +5,7 @@
 --------------------------------------------------------*/
 
 a {
-	color: #47547f;
+	color: #000;
 }
 
 header {
@@ -18,6 +18,10 @@ h3 {
 	color: #777;
 	font-weight: normal;
 }
+
+
+
+/*---------- HEADER ---------------- */
 
 header h1, header h2 {
 	text-shadow: 1px 1px 3px #444;
@@ -39,6 +43,10 @@ header a:hover {
 	opacity: 1;
 }
 
+
+
+/*---------- PROJECTS ---------------- */
+
 .projects-container {
 	border-top-color: #3A3341;
 	background-color: #D4D7DB;
@@ -52,6 +60,10 @@ header a:hover {
 	border-left-color: #9C93AB;
 }
 
+
+
+/*---------- SIDEBAR ---------------- */
+
 .sidebar-boxes h3 {
 	text-shadow: 2px 2px 2px white;	
 }
@@ -61,6 +73,8 @@ header a:hover {
 	border-top-color: #4C4B5E;
 }
 
+/*---------- SIDEBAR CONTENT ---------------- */
+
 .content {
 	background-color: rgba(255,255,255, 0.8);
 	border-color: #eee;
@@ -69,6 +83,20 @@ header a:hover {
 .content p{
 	color: #666;
 }
+
+
+
+/*---------- FOOTER ---------------- */
+
+.footer {
+	color: #555;
+}
+
+.footer a:hover {
+	color: inherit;
+}
+
+
 
 /*---------- h3 Colors ---------------- */
 .colorset-one {

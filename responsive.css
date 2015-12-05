@@ -96,15 +96,12 @@ header a {
 	background-color: #ccc;
 }
 
+
 /*---------- SIDEBAR ---------------- */
 
 .sidebar {
 	border-top: 0;
 }
-
-
-
-/*---------- Footer ---------------- */
 
 .sidebar-boxes {
 	width: 100%; 
@@ -119,6 +116,15 @@ header a {
 .forced-width { 
 	text-align: left;
 }
+
+
+/*---------- Catergory Titles ---------------- */
+
+.heading-block {
+	text-align: center;
+}
+
+
 
 }
 
