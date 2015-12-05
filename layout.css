@@ -159,7 +159,7 @@ iframe {
 /* content holds everything inside a sidebar-box */
 
 .content {
-	padding: 10px;
+	padding: 10px 10px 0px 10px;
 	border-width: 1px;
 	border-style: dashed;
 	font-size: .9em;
@@ -189,7 +189,7 @@ iframe {
 /*---------- progress bar % ---------------- */
 
 .forced-width { 
-	width: 100px;
+	width: 30%;
 	display: inline-block;
 	padding-bottom: 10px;
 	padding-right: 10px;
