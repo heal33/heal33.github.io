@@ -186,7 +186,9 @@ iframe {
 
 
 
-/*---------- progress bar % ---------------- */
+/*-------------------------------------------- */
+/*------------ progress bar % ---------------- */
+/*-------------------------------------------- */
 
 .forced-width { 
 	width: 30%;
@@ -248,6 +250,50 @@ iframe {
 	box-sizing: border-box;
 }
 
+
+/*-------------------------------------------- */
+/*---------- Pokemon Name Gen ---------------- */
+/*-------------------------------------------- */
+
+button {
+  background: red;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 24px;
+  width: 100%;
+  padding: 40px 0;
+  margin: -40px -20px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inconsolata', ;
+}
+
+#question {
+  background: white;
+  color: blue;
+  width: 100%;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: 'Inconsolata', ;
+}
+
+.spoiler {
+	background: #1d3c6a;
+  width: 50%;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  padding: 40px 0px;
+  text-align: center;
+  font-size: 24px;
+}
+.spoiler span {
+  color: #dae1e4;
+  font-family: 'Inconsolata', ;
+}
 
 
 
