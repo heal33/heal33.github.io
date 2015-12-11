@@ -1,0 +1,17 @@
+.list-group {
+	text-align: left;
+	text-shadow: none;
+}
+
+.panel {
+	text-shadow: none;
+	color: black;
+}
+
+.panel a {
+	color: blue;
+}
+
+.color-grey {
+	color: #999;
+}
