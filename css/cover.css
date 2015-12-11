@@ -27,13 +27,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
-              url('../img/space.jpg') no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('../img/constellations.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 body {
-  color: #eee;
+  color: #ccc;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
