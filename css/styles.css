@@ -1,0 +1,138 @@
+
+body {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 20px 0 10px;
+}
+
+.name {
+  border: 3px solid #333;
+  color: #333;
+  display: inline-block;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.contact a {
+  font-size: .8em;
+  padding: 0 5px;
+  color: black;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+h3 {
+  color: #e59100;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.html,
+.css,
+.js,
+.jquery,
+.wordpress,
+.bootstrap,
+.git,
+.mysql,
+.photoshop,
+.illustrator,
+.sass,
+.sublime {
+  padding: 0 5px;
+  margin: 0 2px;
+  font-size: .8em;
+}
+
+.html {
+  background-color: #edb9a3;
+}
+
+.css {
+  background-color: #a2c8d8;
+}
+
+.sass {
+  background-color: #d374a2;
+}
+
+.js {
+  background-color: #fcefb8;
+}
+
+.jquery {
+  background-color: #7494aa;
+}
+
+.wordpress {
+  background-color: #7a8e93;
+}
+
+.bootstrap {
+  background-color: #8a7f9b;
+}
+
+.git {
+  background-color: #ef8973;
+}
+
+.mysql {
+  background-color: #a7bcc9;
+}
+
+.photoshop {
+  background-color: #4879BC;
+  color: white;
+}
+
+.illustrator {
+  background-color: #D96228;
+  color: white;
+}
+
+.sublime {
+  background-color: #999999;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.resume {
+  margin: 40px 0 0;
+}
+
+
+.footer {
+  margin-top: 50px;
+  padding: 10px 0 5px;
+  border-top: 1px solid #ccc;
+  font-size: .8em;
+}
