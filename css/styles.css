@@ -154,6 +154,10 @@ li {
 color: #888;
 }
 
+.no-link a{
+  color: inherit;
+}
+
 .border {
   border: 1px solid #ccc;
   padding: 20px 0;
