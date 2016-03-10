@@ -10,15 +10,16 @@ body {
 }
 
 h1 {
-  margin: 20px 0 10px;
-  font-size: 3em;
+  margin: 20px 0 0px;
+  font-size: 5em;
+  letter-spacing: 10px;
 }
 
 .name {
   color: #333;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .subtitle {
@@ -38,7 +39,7 @@ hr {
 }
 
 .icons {
-  padding: 20px 0 10px;
+  margin: 20px 0 40px;
 }
 
 .icons a {
@@ -51,10 +52,19 @@ hr {
 
 h3 {
   color: #e59100;
-  font-size: 2em;
+  font-size: 2.3em;
+  letter-spacing: 5px;
   text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 0;
+  font-weight: 400;
+  border-top: 1px solid #ccc;
+  margin: 50px 0;
+}
+
+.titleBorder{
+  border: 1px solid #ccc;
+  margin-top: -1px;
+  display: inline-block;
+  padding: 6px 6px 6px 10px;
 }
 
 .html,
@@ -157,16 +167,6 @@ color: #888;
 .no-link a{
   color: inherit;
 }
-
-.border {
-  border: 1px solid #ccc;
-  padding: 20px 0;
-}
-
-.border h3 {
-  margin: 0;
-}
-
 
 .footer {
   margin-top: 50px;
