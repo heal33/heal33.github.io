@@ -5,11 +5,6 @@ body {
   font-size: 1.5em;
 }
 
-.container {
-
-  margin-top: 50px;
-}
-
 h1 {
   margin: 20px 0 0px;
   font-size: 5em;
@@ -18,7 +13,7 @@ h1 {
 
 h3 {
   color: #e59100;
-  font-size: 2.0em;
+  font-size: 2.3em;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: 400;
@@ -30,8 +25,15 @@ h4 {
   margin: 10px;
 }
 
+.jumbotron {
+  background: linear-gradient(to top, rgba(173, 141, 90, .5), rgba(173, 141, 90, .5)),
+   url("../img/ferriswheel.png");
+  background-position: left bottom;
+  color: white;
+
+}
+
 .name {
-  color: #333;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 300;
@@ -50,7 +52,7 @@ hr {
 .contact a {
   font-size: .8em;
   padding: 0 5px;
-  color: black;
+  color: white;
 }
 
 .icons {
@@ -167,11 +169,10 @@ li {
 }
 
 .divcontent {
-  padding: 15px 0;
+  padding: 0 0 15px 0;
 }
 
 .summary {
-color: #888;
 }
 
 .no-link a{
