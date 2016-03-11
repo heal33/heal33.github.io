@@ -2,6 +2,7 @@
 body {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
 }
 
 .container {
@@ -13,6 +14,20 @@ h1 {
   margin: 20px 0 0px;
   font-size: 5em;
   letter-spacing: 10px;
+}
+
+h3 {
+  color: #e59100;
+  font-size: 2.0em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-top: 1px solid #ccc;
+  margin: 50px 0;
+}
+
+h4 {
+  margin: 10px;
 }
 
 .name {
@@ -48,16 +63,6 @@ hr {
 
 .subtitle {
   padding: 10px 0;
-}
-
-h3 {
-  color: #e59100;
-  font-size: 2.3em;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font-weight: 400;
-  border-top: 1px solid #ccc;
-  margin: 50px 0;
 }
 
 .titleBorder{
@@ -150,6 +155,11 @@ li {
   margin-bottom: 10px;
   padding: 0;
   list-style: none;
+}
+
+.ico {
+  height: 64px;
+  padding: 0 10px;
 }
 
 .resume {
