@@ -30,6 +30,7 @@ h4 {
    url("../img/ferris.jpg");
   background-position: left bottom;
   color: white;
+  background-size: cover;
 
 }
 
@@ -166,6 +167,10 @@ li {
 
 .resume {
   margin: 40px 0 0;
+}
+
+.resume a {
+  font-size: 1em;
 }
 
 .divcontent {
