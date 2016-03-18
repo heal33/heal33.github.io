@@ -25,6 +25,11 @@ h4 {
   margin: 10px;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .jumbotron {
   background: linear-gradient(to top, rgba(173, 141, 90, .5), rgba(173, 141, 90, .5)),
    url("../img/ferris.jpg");
@@ -75,86 +80,25 @@ hr {
   padding: 6px 6px 6px 10px;
 }
 
-.html,
-.css,
-.js,
-.jquery,
-.wordpress,
-.bootstrap,
-.git,
-.mysql,
-.photoshop,
-.illustrator,
-.sass,
-.sublime,
-.terminal {
-  padding: 0 5px;
-  margin: 0 2px;
-  font-size: .9em;
+.skills {
+  display: inline-block;
+  padding: 0;
 }
 
-.html {
-  background-color: #edb9a3;
+.skills li {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0 5px;
 }
 
-.css {
-  background-color: #a2c8d8;
-}
-
-.sass {
-  background-color: #d374a2;
-}
-
-.js {
-  background-color: #fcefb8;
-}
-
-.jquery {
-  background-color: #adc5d6;
-}
-
-.wordpress {
-  background-color: #a9b9bc;
-}
-
-.bootstrap {
-  background-color: #b5acc4;
-}
-
-.git {
-  background-color: #ef8973;
-}
-
-.mysql {
-  background-color: #a7bcc9;
-}
-
-.photoshop {
-  background-color: #9dbae0;
-}
-
-.illustrator {
-  background-color: #ffd6c4;
-}
-
-.sublime {
-  background-color: #dddddd;
-}
-
-.terminal {
-  background-color: #99cc99;
-}
-
-.responsive-d {
-  background-color: #99cc99;
-}
-
-ul {
+.projects {
   margin: 0;
   padding: 0;
 }
 
-li {
+.projects li {
   margin-bottom: 10px;
   padding: 0;
   list-style: none;
