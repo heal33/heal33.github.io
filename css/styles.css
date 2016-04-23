@@ -1,80 +1,155 @@
+/* 
+=============================
+  F O N T S
+=============================
+*/
 
 body {
-  text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.5em;
 }
 
-h1 {
-  margin: 20px 0 0px;
+h1.name {
+  font-weight: 300;
   font-size: 5em;
-  letter-spacing: 10px;
 }
 
-h3 {
-  color: #e59100;
-  font-size: 2em;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+h2 {
+  font-size: 3em;
   font-weight: 400;
-  border-top: 1px solid #ccc;
-  margin-bottom: 60px;
+  text-transform: uppercase;
 }
 
-h4 {
+
+
+/* 
+=============================
+  C O L O R S
+=============================
+*/
+
+body {
+  color: #3C4A4D;
 }
+
+a {
+  color: #3C4A4D;
+}
+
+.container-color-1{
+  background-color:#F6B002;
+  color: #fff;
+}
+
+
+/*.jumbo-background {
+  background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+   url("../img/ferris.jpg");
+  background-position: left bottom;
+  color: #ccc;
+  background-size: cover;
+}
+*/
+.jumbo-background {
+  background-color: #30C9E9;
+  color: #eee;
+}
+
+.color-alt-one {
+  background-color: #F8F8FA;
+}
+
+.color-alt-two {
+  background-color: #FFF;
+}
+
+.color-alt-three {
+  background-color: red;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact a:hover {
+  color: #3C4A4D;
+}
+
+.link-pop {
+ color: #FF4330; 
+}
+
+.outline {
+  box-shadow: 0 0 0px 6px #fff;
+  padding: 5px 10px;
+}
+
+.no-link a{
+  color: inherit;
+}
+
+.text-color-light {
+  color: #30C9E9;
+}
+
+.footer-bg-color {
+  background-color: #3C4A4D;
+  color: #999;
+}
+
+.footer-bg-color a {
+  color: #FF4330;
+}
+
+
+/* 
+=============================
+  L A Y O U T
+=============================
+*/
+
+img {
+  width: 100%;
+  box-shadow: 0 0 20px #ccc;
+}
+
+h1.name {
+  line-height: 1.6em;
+}
+
 
 ul {
   list-style: none;
   padding: 0;
 }
 
-.jumbotron {
-  background: linear-gradient(to top, rgba(173, 141, 90, .5), rgba(173, 141, 90, .5)),
-   url("../img/ferris.jpg");
-  background-position: left bottom;
-  color: white;
-  background-size: cover;
-
-}
-
 .name {
-  display: inline-block;
   text-transform: uppercase;
-  font-weight: 300;
 }
-
-.subtitle {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1em;
-}
-
-
 
 .contact a {
   font-size: .8em;
   padding: 0 5px;
-  color: white;
+}
+
+.jumbo-buffer {
+  padding: 150px 0;
+  margin: 0;
 }
 
 .icons {
-  margin: 20px 0 40px;
+  margin: 40px 0 40px;
 }
 
 .icons a {
-  margin: 0 5px;
+  margin: 0 0px;
 }
 
-.subtitle {
-  padding: 10px 0;
+.project-container-outer {
+  padding: 60px 50px;
 }
 
-.titleBorder{
-  border: 1px solid #ccc;
-  margin-top: -1px;
-  display: inline-block;
-  padding: 6px 6px 6px 10px;
+.project-container {
+  padding: 0 0px;
 }
 
 .skills {
@@ -95,17 +170,9 @@ ul {
   padding: 0;
 }
 
-.text-left {
-  text-align: left;
-}
-
 .ico {
   height: 64px;
   padding: 0 20px;
-}
-
-.content {
-  padding: 30px 0;
 }
 
 .resume {
@@ -120,17 +187,7 @@ ul {
   opacity: .5;
 }
 
-.summary {
-}
-
-.no-link a{
-  color: inherit;
-}
-
-.footer {
-  margin-top: 50px;
-  padding: 20px 0px;
-  border-top: 1px solid #eee;
-  font-size: .8em;
-  color: #888;
+.top-buffer{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
