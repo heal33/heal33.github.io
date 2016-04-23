@@ -36,23 +36,23 @@ a {
 }
 
 .container-color-1{
-  background: #3C4A4D;
-  color: #ccc;
+  background: #30C9E9;
+  color: #eee;
 }
 
 
-/*.jumbo-background {
+.jumbo-background {
   background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
    url("../img/ferris.jpg");
   background-position: left bottom;
   color: #ccc;
   background-size: cover;
 }
-*/
-.jumbo-background {
+
+/*.jumbo-background {
   background-color: #30C9E9;
   color: #eee;
-}
+}*/
 
 .color-alt-one {
   background-color: #F8F8FA;
@@ -78,10 +78,7 @@ a {
  color: #FF4330; 
 }
 
-.outline {
-  box-shadow: 0 0 0px 4px #ccc;
-  padding: 5px 10px;
-}
+
 
 .no-link a{
   color: inherit;
