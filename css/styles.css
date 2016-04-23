@@ -36,8 +36,8 @@ a {
 }
 
 .container-color-1{
-  background-color:#F6B002;
-  color: #fff;
+  background: #3C4A4D;
+  color: #ccc;
 }
 
 
@@ -63,7 +63,7 @@ a {
 }
 
 .color-alt-three {
-  background-color: red;
+  background-color:;
 }
 
 .contact a {
@@ -79,7 +79,7 @@ a {
 }
 
 .outline {
-  box-shadow: 0 0 0px 6px #fff;
+  box-shadow: 0 0 0px 4px #ccc;
   padding: 5px 10px;
 }
 
