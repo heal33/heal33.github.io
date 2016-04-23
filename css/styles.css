@@ -42,10 +42,10 @@ a {
 
 
 .jumbo-background {
-  background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+  background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
    url("../img/ferris.jpg");
   background-position: left bottom;
-  color: #ccc;
+  color: #eee;
   background-size: cover;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .contact a:hover {
-  color: #3C4A4D;
+  color: #30C9E9;
 }
 
 .link-pop {
