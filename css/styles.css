@@ -1,203 +1,96 @@
-/* 
-=============================
-  F O N T S
-=============================
-*/
-
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-h1.name {
-  font-size: 5em;
-}
-
-h2 {
-  font-size: 2em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-h2 a {
-  color: inherit;
-  transition: color .25s;
-}
-
-
-h2 a:hover {
-  text-decoration: none;
-}
-
-
-
-/* 
-=============================
-  C O L O R S
-=============================
-*/
-
-body {
-  color: #3C4A4D;
+  background-color: #282828;
+  color: #A59986;
+  font-family: "Inconsolata";
+  line-height: 1.5em;
+  font-weight: bold;
 }
 
 a {
-  color: #3C4A4D;
+  color: #A59986;
+  text-decoration: none;
 }
 
-.container-color-1{
-  background: #30C9E9;
-  color: #eee;
+a:hover {
+  color: #EBDBB2;
+  font-weight: bold;
 }
-
-
-/*.jumbo-background {
-  background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-   url("../img/ferris.jpg");
-  background-position: left bottom;
-  color: #eee;
-  background-size: cover;
-}
-*/
-.jumbo-background {
-  background-color: #30C9E9;
-  color: #eee;
-}
-
-.color-alt-one {
-  background-color: #F8F8FA;
-}
-
-.color-alt-two {
-  background-color: #FFF;
-}
-
-.color-alt-three {
-  background-color:;
-}
-
-.contact a {
-  color: white;
-}
-
-.contact a:hover {
-  color: #3C4A4D;
-}
-
-h2 a:hover {
-  color: #FF4330;
-}
-
-.link-pop {
- color: #FF4330; 
-}
-
-
-
-.no-link a{
-  color: inherit;
-}
-
-.text-color-light {
-  color: #30C9E9;
-}
-
-.footer-bg-color {
-  background-color: #3C4A4D;
-  color: #999;
-}
-
-.footer-bg-color a {
-  color: #FF4330;
-}
-
-
-/* 
-=============================
-  L A Y O U T
-=============================
-*/
-
-img {
-  width: 100%;
-  box-shadow: 0 0 20px #ccc;
-}
-
-h1.name {
-  line-height: 1.6em;
-}
-
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  padding: 0;
 }
 
-.name {
-  text-transform: uppercase;
+li{
+  
 }
 
-.contact a {
-  font-size: .8em;
-  padding: 0 5px;
+h1 span {
+  color: #AF3A03;
 }
 
-.jumbo-buffer {
-  padding: 180px 0;
-  margin: 0;
+
+.row {
+  width: 1040px;
 }
 
-.icons {
-  margin: 40px 0 40px;
+.block {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 200px;
 }
 
-.icons a {
-  margin: 0 0px;
+.block div span {
+  color: #FB4934;
 }
 
-.project-container-outer {
-  padding: 60px 50px;
+.four {
+  width: 400px;
 }
 
-.project-container {
-  padding: 0 0px;
+.four span a {
+  color: #689D69;
 }
 
-.skills {
-  display: inline-block;
-  padding: 0;
+.four span a:hover {
+  color: #8Ec07c;
 }
 
-.skills li {
-  display: inline-block;
-  font-weight: 700;
-  text-decoration: underline;
-  padding: 0;
-  margin: 0 5px;
+@media only screen and (min-width: 375px) {
+  body {
+    padding: 10px;
+  }
+    .row {
+        width: 260px;
+        margin: 10px;
+    }
+    h1 {
+  margin-bottom: 50px;
+}
 }
 
-.projects {
-  margin: 0;
-  padding: 0;
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 30px;
+  }
+    .row {
+        width: 1040px;
+    margin: 100px auto;
+    }
+    h1 {
+  margin-bottom: 100px;
+}
 }
 
-.ico {
-  height: 64px;
-  padding: 0 20px;
+@media only screen and (min-width: 1224px) {
+  body {
+    padding: 30px;
+  }
+    .row {
+        width: 1040px;
+    }
+
 }
 
-.resume {
-  margin: 40px 0 0;
-}
-
-.resume a {
-  font-size: 1em;
-}
-
-.sub-skill {
-  opacity: .5;
-}
-
-.top-buffer{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
