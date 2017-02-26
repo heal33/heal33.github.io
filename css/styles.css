@@ -3,7 +3,7 @@ body {
   color: #A59986;
   font-family: "Inconsolata";
   line-height: 1.5em;
-  font-weight: bold;
+
 }
 
 a {
@@ -31,9 +31,7 @@ h1 span {
 }
 
 
-.row {
-  width: 1040px;
-}
+
 
 .block {
   float: left;
@@ -76,8 +74,8 @@ h1 span {
     padding: 30px;
   }
     .row {
-        width: 1040px;
-    margin: 100px auto;
+        width: 920px;
+    margin: 200px auto;
     }
     h1 {
   margin-bottom: 100px;
@@ -89,7 +87,7 @@ h1 span {
     padding: 30px;
   }
     .row {
-        width: 1040px;
+        width: 920px;
     }
 
 }
