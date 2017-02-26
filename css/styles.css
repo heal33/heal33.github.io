@@ -3,7 +3,7 @@ body {
   color: #A59986;
   font-family: "Inconsolata";
   line-height: 1.5em;
-
+  font-size: .9em;
 }
 
 a {
@@ -28,6 +28,7 @@ li{
 
 h1 span {
   color: #AF3A03;
+
 }
 
 
@@ -45,7 +46,7 @@ h1 span {
 }
 
 .four {
-  width: 400px;
+  width: 500px;
 }
 
 .four span a {
